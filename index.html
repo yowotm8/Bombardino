@@ -95,12 +95,10 @@
         #chart-button:hover {
             background-image: linear-gradient(to bottom right, #e11d48, #d81b60);
         }
-        #whitepaper-button {
+        #x-button {
             background-image: linear-gradient(to bottom right, #fbbf24, #f59e0b);
         }
-        #whitepaper-button:hover {
-            background-image: linear-gradient(to bottom right, #f59e0b, #d97706);
-        }
+    
         .logo {
             width: 10rem;
             height: auto;
@@ -172,6 +170,11 @@
                 <img src="chart.png" alt="Chart" class="icon" />
                 View Chart
             </a>
+
+          <a href="#" id="x-button" class="button">
+                <img src="chart.png" alt="Chart" class="icon" />
+                Follow me on X
+            </a>
         </div>
 
         <div class="features">
@@ -218,6 +221,9 @@ document.getElementById('telegram-button').addEventListener('click', () => {
 
 document.getElementById('chart-button').addEventListener('click', () => {
   window.location.href = 'https://dexscreener.com';
+
+document.getElementById('x-button').addEventListener('click', () => {
+  window.location.href = 'https://x.com/RealBombardino';
 });
     </script>
 </body>
